@@ -10,9 +10,7 @@ int minDistance(int dist[], bool visited[])
     for (int v = 0; v < V; v++)
         if (visited[v] == false && dist[v] <= min)
             min = dist[v], min_index = v;
-
     return min_index;
-
 }
 
 void printSolution(int dist[])
